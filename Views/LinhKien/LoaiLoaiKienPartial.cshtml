@@ -1,0 +1,23 @@
+﻿@using _02_WebsiteBanLinhKienDienTu.Models;
+@model List<LOAILINHKIEN>
+<div class="col col-md-2  card">
+    <div class="container">
+        <nav>
+            <h4 style="padding-left:1%; background-color:orange; height:38px; width:300px;"><i class="fas fa-align-justify"></i>&nbsp;&nbsp;Danh Mục Sản Phẩm</h4>
+            <ul class="mcd-menu">
+                @{
+                    foreach (var item in Model)
+                    {
+                        <li>
+                            <a href="@Url.Action("LinhKienTheoLoai", "LinhKien", new { @maLoai = item.MALOAI })">
+                                <i class="fab fa-reddit-alien">
+                                </i>
+                                <strong>@item.TENLOAI</strong>
+                            </a>
+                        </li>
+                    }
+                }
+            </ul>
+        </nav>
+    </div>
+</div>

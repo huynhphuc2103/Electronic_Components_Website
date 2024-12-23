@@ -1,0 +1,23 @@
+﻿@using _02_WebsiteBanLinhKienDienTu.Models;
+@model List<LOAITINTUC>
+<div class="col col-md-2 card">
+        <div class="container">
+            <nav>
+                <h4 style="background-color:orange; height:38px; width:300px; text-align:center"><i class="fas fa-clipboard"></i>&nbsp;&nbsp;Tin Tức</h4>
+                <ul class="mcd-menu">
+                @{
+                    foreach (var item in Model)
+                    {
+                    <li>
+                        <a href="@Url.Action("TinTucTheoLoai", "TinTuc", new { @maLoai = item.MALOAITIN })">
+                            <i class="fas fa-yin-yang"></i>
+                            <strong>@item.TENLOAITIN</strong>
+                        </a>
+                    </li>
+                    }
+                }
+                </ul>
+            </nav>
+        </div>
+</div>
+

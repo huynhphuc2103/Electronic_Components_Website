@@ -1,0 +1,39 @@
+﻿@model _02_WebsiteBanLinhKienDienTu.Models.LINHKIEN
+
+@{
+    ViewBag.Title = "ChiTietLinhKien";
+    Layout = "~/Views/Shared/LayoutPage.cshtml";
+}
+<h2 style="text-align:center; padding-top:10px; font-family:'Times New Roman', Times, serif"><b>CHI TIẾT LINH KIỆN</b></h2>
+<div class="card border-dark">
+    <table class="border-dark mx-3 mb-3 mt-3">
+        <tr class="text-left">
+            <td rowspan="5" width="30%">
+                <img src="/image/@Model.HINHANH" style="height:220px; width:220px" />
+            </td>
+            <td>Tên Linh Kiện:</td>
+            <td width="50%" style="font-weight:bold; color:blue">@Model.TENLK</td>
+        </tr>
+        <tr class="text-left">
+            <td>Tên Loại:</td>
+            <td style="color:blue">@Model.LOAILINHKIEN.TENLOAI</td>
+        </tr>
+        <tr class="text-left">
+            <td>Mô Tả:</td>
+            <td align="justify">@Model.MOTA</td>
+        </tr>
+        <tr class="text-left">
+            <td>Đơn Giá:</td>
+            <td style="font-weight:bold; color:red">@string.Format("{0:0.000}", @Model.DONGIA) VNĐ</td>
+        </tr>
+        <tr>
+            <td align="justify">
+                <br /><br />
+                <a href="/LinhKien/TrangChu">
+                    <input type="submit" value="Trở Về" class="btn btn-primary" />
+                </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="@Url.Action("ThemGioHang", "GioHang", new { @maLK = @Model.MALK, @strURL = Request.Url.ToString() })"><input type="submit" value="Thêm Vào Giỏ" class="btn btn-primary" /></a>
+            </td>
+        </tr>
+    </table>
+</div>

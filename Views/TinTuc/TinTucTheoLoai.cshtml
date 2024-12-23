@@ -1,0 +1,35 @@
+﻿@model IEnumerable<_02_WebsiteBanLinhKienDienTu.Models.TINTUC>
+@{
+    ViewBag.Title = "TinTucTheoLoai";
+    Layout = "~/Views/Shared/LayoutPage.cshtml";
+}
+<h2 style="text-align:center; padding-top:10px; font-family:'Times New Roman', Times, serif"><b>TỔNG HỢP TIN TỨC PHỔ BIẾN</b></h2>
+@{
+    foreach (var item in Model)
+    {
+        <table class="table" style="border:solid 1px">
+
+            <tr>
+                <td colspan="2">
+                    <strong style="font-size:30px">
+                        @Html.DisplayFor(modelItem => item.TENTIEUDE)
+                    </strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NGAYDANG)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="/image/@Html.DisplayFor(modelItem => item.HINHANH)" style="height:300px; width:300px" />
+                </td>
+                <td style="font-size:18px">
+                    @Html.DisplayFor(modelItem => item.NOIDUNG)
+                </td>
+            </tr>
+        </table>
+        <hr />
+    }
+}

@@ -1,0 +1,50 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Work+Sans);
+.snip1474 {
+  font-family: 'Work Sans', Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.snip1474 *,
+.snip1474 *:after {
+  box-sizing: border-box;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.snip1474 li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0.5em .6em;
+  -webkit-perspective: 50em;
+  perspective: 50em;
+}
+.snip1474 a {
+  backface-visibility: hidden;
+  color: #ffffff;
+  display: block;
+  line-height: 2.2em;
+  padding: 0 1.4em;
+  position: relative;
+  text-decoration: none;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  background-color: #7B68EE;
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+}
+.snip1474 a:after {
+  background-color: #5c122e;
+  color: transparent;
+  content: attr(data-hover);
+  top: 100%;
+  line-height: 2.2em;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  -webkit-transform: translateY(0%) rotateX(-90deg);
+  transform: translateY(0%) rotateX(-90deg);
+  -webkit-transform-origin: 50% 0%;
+  -ms-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+}

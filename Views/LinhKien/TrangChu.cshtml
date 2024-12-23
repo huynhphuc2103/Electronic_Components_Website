@@ -1,0 +1,44 @@
+﻿@model IEnumerable<_02_WebsiteBanLinhKienDienTu.Models.LINHKIEN>
+@{
+    ViewBag.Title = "TrangChu";
+    Layout = "~/Views/Shared/LayoutPage.cshtml";
+}
+<h2 style="text-align:center; padding-top:10px; font-family:'Times New Roman', Times, serif"><b>DANH SÁCH TẤT CẢ CÁC SẢN PHẨM</b></h2>
+<div class="row">
+    @{
+        foreach (var item in Model)
+        {
+            <div class="col-3">
+                <div class="container">
+                    <div class="well well-sm">
+                        <div id="products" class="row list-group">
+                            <div class="item  col-xs-4 col-md-3">
+                                <div class="thumbnail">
+                                    <div class="img-responsive-wrap">
+                                        <img class="img-inner" src="/image/@Html.DisplayFor(modelItem => item.HINHANH)" alt="" />
+                                    </div>
+                                    <div class="category">
+                                        <h5 class="category-name">@Html.DisplayFor(modelItem => item.TENLK)</h5>
+                                    </div>
+                                    <div class="caption">
+                                        <div class="row">
+                                            <div class="col-xs-10 col-md-6" style="padding-left:40px; padding-top:20px">
+                                                <p class="lead">
+                                                    @string.Format("{0:0.000}", @Html.DisplayFor(modelItem => item.DONGIA)) VNĐ
+                                                </p>
+                                            </div>
+                                            <div class="btn-group">
+                                                <a class="btn btn-details" href="@Url.Action("ChiTietLinhKien", "LinhKien", new { @maLK = item.MALK })">Details</a>
+                                                <a class="btn btn-success" href="@Url.Action("ThemGioHang", "GioHang", new { @maLK = item.MALK, @strURL = Request.Url.ToString() })">Add to cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    }
+</div>

@@ -1,0 +1,48 @@
+﻿
+@{
+    ViewBag.Title = "GioHang";
+    Layout = "~/Views/Shared/LayoutPage.cshtml";
+}
+@using _02_WebsiteBanLinhKienDienTu.Models;
+@model List<GioHang>
+<h2 style="text-align:center">GIỎ HÀNG CỦA BẠN</h2>
+<div class="card border-dark">
+    <table class="table">
+        <tr style="background-color:#778899">
+            <th>Mã</th>
+            <th>Tên Linh Kiện</th>
+            <th>Ảnh</th>
+            <th>Số Lượng</th>
+            <th>Đơn Giá</th>
+            <th>Thành Tiền</th>
+            <th></th>
+            <th><a href="@Url.Action("XoaALLGioHang", "GioHang")" class="btn btn-primary">Xoá Hết</a></th>
+            <th></th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td width="8%">@item.maLK</td>
+                <td width="26%">@item.tenLK</td>
+                <td width="22%"><img src="/image/@item.hinhAnh" style="width:100px; height:100px" /></td>
+                @using (Html.BeginForm("CapNhatGioHang", "GioHang", new { @maLK = item.maLK }))
+                {
+                    <td width="12%"><input type="number" value="@item.soLuong" name="txtSoLuong" id="txtSoLuong" style="width:60px" min="1" /></td>
+                    <td width="12%">@string.Format("{0:0.000}", item.donGia)</td>
+                    <td width="16%">@string.Format("{0:0.000}", item.thanhTien)</td>
+                    <td style="float:left"><input type="submit" value="Cập Nhật" class="btn btn-primary" /></td>
+                    <td><a href="@Url.Action("ChiTietLinhKien", "LinhKien", new { @maLK = item.maLK })" class="btn btn-primary">Chi Tiết</a></td>
+                    <td><a href="@Url.Action("Xoa1SPTrongGioHang", "GioHang", new { @maLK = item.maLK })" class="btn btn-primary">Xoá</a></td>
+                }
+            </tr>
+        }
+        <tr>
+            <td colspan="3" style="color:blue; font-weight:bold; text-align:right">Tổng Sản Phẩm:</td>
+            <td style="color:red; font-weight:bold">@ViewBag.TongSL</td>
+            <td style="color:blue; font-weight:bold; text-align:right">Tổng Tiền:</td>
+            <td colspan="2" style="color:red; font-weight:bold">@string.Format("{0:0.000}", ViewBag.TongTT) VNĐ</td>
+            <td><a href="/GioHang/DatHang" class="btn btn-primary" style="background-color:aquamarine; color:darkred; font-size:20px"><b>Đặt Hàng</b></a></td>
+            <td></td>
+        </tr>
+    </table>
+</div>

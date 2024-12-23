@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "DangNhap";
+    Layout = "~/Views/Shared/LayoutPage.cshtml";
+}
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+    {
+
+        <div class="container">
+            <h1>Đăng Nhập</h1>
+            <label for="email"><b>Tài Khoản</b></label>
+            <input type="text" placeholder="Nhập tên tài khoản" name="TenDN" required>
+
+            <label for="psw"><b>Mật Khẩu</b></label>
+            <input type="password" placeholder="Nhập mật khẩu" name="MatKhau" required>
+
+            <p><a href="/NguoiDung/DangNhapAdmin" class="btn btn-primary" style="background-color:aquamarine; color:darkred"><b>Đăng Nhập Quyền Admin</b></a></p>
+            <div class="clearfix">
+                <button type="submit" class="signupbtn">Đăng Nhập</button>
+            </div>
+        </div>
+    }
+}
+<h3 style="color:red; text-align:center;">@ViewBag.TB</h3>

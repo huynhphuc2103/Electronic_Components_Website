@@ -1,0 +1,47 @@
+﻿
+@{
+    ViewBag.Title = "DangKy";
+    Layout = "~/Views/Shared/LayoutPage.cshtml";
+}
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+        {
+
+    <div class="container">
+        <h1>Dăng Ký Tài Khoản</h1>
+        <p>Xin hãy nhập biểu mẫu bên dưới để đăng ký.</p>
+        <hr>
+        <label for="psw"><b>Nhập Họ Tên</b></label>
+        @Html.TextBox("HoTenKH", "", new { @class = "form-control" }) @ViewData["HTErorr"]
+        
+        <label for="email"><b>Nhập Giới Tính</b></label>
+        <input type="text" name="GioiTinh" required>
+
+        <label for="psw-repeat"><b>Nhập Tên Đăng Nhập</b></label>
+        @Html.TextBox("TenDN", "", new { @class = "form-control" }) @ViewData["TDNErorr"]
+
+        <label for="psw-repeat"><b>Nhập Mật Khẩu</b></label>
+        @Html.Password("MatKhau", "", new { @class = "form-control" }) @ViewData["MKErorr"]
+
+        <label for="psw-repeat"><b>Nhập Lại Mật Khẩu</b></label>
+        @Html.Password("NLMatKhau", "", new { @class = "form-control" }) @ViewData["NLMKErorr"]
+
+        <label for="psw-repeat"><b>Nhập Số Điện Thoại</b></label>
+        @Html.TextBox("DienThoai", "", new { @class = "form-control" }) @ViewData["DTErorr"]
+
+        <label for="psw-repeat"><b>Chọn Ngày Sinh</b></label>
+        <input type="date" name="NgaySinh" style="width:400px" class="form-control" />
+        <br />
+        <label for="email"><b>Nhập Email</b></label>
+        <input type="text" name="Email" required>
+
+        <label for="psw-repeat"><b>Nhập Địa Chỉ</b></label>
+        <input type="text" name="DiaChi" required>
+
+        <div class="clearfix">
+            <button type="submit" class="signupbtn">Đăng Ký</button>
+        </div>
+    </div>
+    }
+}

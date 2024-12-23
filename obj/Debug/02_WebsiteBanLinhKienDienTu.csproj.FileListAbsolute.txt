@@ -1,0 +1,72 @@
+D:\Exercise\Lap Trinh Web\Do An\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\02_WebsiteBanLinhKienDienTu.dll.config
+D:\Exercise\Lap Trinh Web\Do An\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\02_WebsiteBanLinhKienDienTu.dll
+D:\Exercise\Lap Trinh Web\Do An\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\02_WebsiteBanLinhKienDienTu.pdb
+D:\Exercise\Lap Trinh Web\Do An\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\System.Web.Helpers.dll
+D:\Exercise\Lap Trinh Web\Do An\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\System.Web.Mvc.dll
+D:\Exercise\Lap Trinh Web\Do An\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\System.Web.Razor.dll
+D:\Exercise\Lap Trinh Web\Do An\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\System.Web.Webpages.Deployment.dll
+D:\Exercise\Lap Trinh Web\Do An\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\System.Web.Webpages.dll
+D:\Exercise\Lap Trinh Web\Do An\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\System.Web.Webpages.Razor.dll
+D:\Exercise\Lap Trinh Web\Do An\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\System.Web.Razor.xml
+D:\Exercise\Lap Trinh Web\Do An\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\System.Web.Webpages.xml
+D:\Exercise\Lap Trinh Web\Do An\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\System.Web.Webpages.Deployment.xml
+D:\Exercise\Lap Trinh Web\Do An\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\System.Web.Webpages.Razor.xml
+D:\Exercise\Lap Trinh Web\Do An\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\System.Web.Helpers.xml
+D:\Exercise\Lap Trinh Web\Do An\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\System.Web.Mvc.xml
+D:\Exercise\Lap Trinh Web\Do An\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\obj\Debug\02_WebsiteBanLinhKienDienTu.csprojResolveAssemblyReference.cache
+D:\Exercise\Lap Trinh Web\Do An\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\obj\Debug\02_WebsiteBanLinhKienDienTu.dll
+D:\Exercise\Lap Trinh Web\Do An\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\obj\Debug\02_WebsiteBanLinhKienDienTu.pdb
+C:\Users\ASUS\Desktop\New folder\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\02_WebsiteBanLinhKienDienTu.dll.config
+C:\Users\ASUS\Desktop\New folder\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\02_WebsiteBanLinhKienDienTu.dll
+C:\Users\ASUS\Desktop\New folder\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\02_WebsiteBanLinhKienDienTu.pdb
+C:\Users\ASUS\Desktop\New folder\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\System.Web.Helpers.dll
+C:\Users\ASUS\Desktop\New folder\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\System.Web.Mvc.dll
+C:\Users\ASUS\Desktop\New folder\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\System.Web.Razor.dll
+C:\Users\ASUS\Desktop\New folder\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\System.Web.Webpages.Deployment.dll
+C:\Users\ASUS\Desktop\New folder\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\System.Web.Webpages.dll
+C:\Users\ASUS\Desktop\New folder\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\System.Web.Webpages.Razor.dll
+C:\Users\ASUS\Desktop\New folder\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\System.Web.Razor.xml
+C:\Users\ASUS\Desktop\New folder\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\System.Web.Webpages.xml
+C:\Users\ASUS\Desktop\New folder\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\System.Web.Webpages.Deployment.xml
+C:\Users\ASUS\Desktop\New folder\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\System.Web.Webpages.Razor.xml
+C:\Users\ASUS\Desktop\New folder\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\System.Web.Helpers.xml
+C:\Users\ASUS\Desktop\New folder\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\System.Web.Mvc.xml
+C:\Users\ASUS\Desktop\New folder\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\obj\Debug\02_WebsiteBanLinhKienDienTu.csprojResolveAssemblyReference.cache
+C:\Users\ASUS\Desktop\New folder\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\obj\Debug\02_WebsiteBanLinhKienDienTu.dll
+C:\Users\ASUS\Desktop\New folder\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\obj\Debug\02_WebsiteBanLinhKienDienTu.pdb
+C:\Users\ASUS\Desktop\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\02_WebsiteBanLinhKienDienTu.dll.config
+C:\Users\ASUS\Desktop\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\02_WebsiteBanLinhKienDienTu.dll
+C:\Users\ASUS\Desktop\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\02_WebsiteBanLinhKienDienTu.pdb
+C:\Users\ASUS\Desktop\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\System.Web.Helpers.dll
+C:\Users\ASUS\Desktop\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\System.Web.Mvc.dll
+C:\Users\ASUS\Desktop\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\System.Web.Razor.dll
+C:\Users\ASUS\Desktop\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\System.Web.Webpages.Deployment.dll
+C:\Users\ASUS\Desktop\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\System.Web.Webpages.dll
+C:\Users\ASUS\Desktop\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\System.Web.Webpages.Razor.dll
+C:\Users\ASUS\Desktop\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\System.Web.Razor.xml
+C:\Users\ASUS\Desktop\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\System.Web.Webpages.xml
+C:\Users\ASUS\Desktop\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\System.Web.Webpages.Deployment.xml
+C:\Users\ASUS\Desktop\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\System.Web.Webpages.Razor.xml
+C:\Users\ASUS\Desktop\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\System.Web.Helpers.xml
+C:\Users\ASUS\Desktop\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\System.Web.Mvc.xml
+C:\Users\ASUS\Desktop\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\obj\Debug\02_WebsiteBanLinhKienDienTu.csprojResolveAssemblyReference.cache
+C:\Users\ASUS\Desktop\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\obj\Debug\02_WebsiteBanLinhKienDienTu.dll
+C:\Users\ASUS\Desktop\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\obj\Debug\02_WebsiteBanLinhKienDienTu.pdb
+D:\Exercise\Lap Trinh Web\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\02_WebsiteBanLinhKienDienTu.dll.config
+D:\Exercise\Lap Trinh Web\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\02_WebsiteBanLinhKienDienTu.dll
+D:\Exercise\Lap Trinh Web\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\02_WebsiteBanLinhKienDienTu.pdb
+D:\Exercise\Lap Trinh Web\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\System.Web.Helpers.dll
+D:\Exercise\Lap Trinh Web\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\System.Web.Mvc.dll
+D:\Exercise\Lap Trinh Web\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\System.Web.Razor.dll
+D:\Exercise\Lap Trinh Web\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\System.Web.Webpages.Deployment.dll
+D:\Exercise\Lap Trinh Web\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\System.Web.Webpages.dll
+D:\Exercise\Lap Trinh Web\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\System.Web.Webpages.Razor.dll
+D:\Exercise\Lap Trinh Web\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\System.Web.Razor.xml
+D:\Exercise\Lap Trinh Web\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\System.Web.Webpages.xml
+D:\Exercise\Lap Trinh Web\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\System.Web.Webpages.Deployment.xml
+D:\Exercise\Lap Trinh Web\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\System.Web.Webpages.Razor.xml
+D:\Exercise\Lap Trinh Web\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\System.Web.Helpers.xml
+D:\Exercise\Lap Trinh Web\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\bin\System.Web.Mvc.xml
+D:\Exercise\Lap Trinh Web\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\obj\Debug\02_WebsiteBanLinhKienDienTu.csprojResolveAssemblyReference.cache
+D:\Exercise\Lap Trinh Web\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\obj\Debug\02_WebsiteBanLinhKienDienTu.dll
+D:\Exercise\Lap Trinh Web\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\02_WebsiteBanLinhKienDienTu\obj\Debug\02_WebsiteBanLinhKienDienTu.pdb

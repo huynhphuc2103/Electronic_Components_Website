@@ -1,0 +1,46 @@
+﻿@model _02_WebsiteBanLinhKienDienTu.Models.LINHKIEN
+
+@{
+    ViewBag.Title = "SuaLinhKien";
+    Layout = "~/Views/Shared/LayoutPage.cshtml";
+}
+<h3 style="color:red; text-align:center;">@ViewBag.TB</h3>
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+    {
+        <div class="container">
+            <h1>Sửa Linh Kiện</h1>
+            <hr>
+            <label for="email"><b>Nhập Mã Loại</b></label>
+            <input type="text" name="maLoai" required>
+
+            <label for="email"><b>Nhập Tên Linh Kiện</b></label>
+            <input type="text" name="tenLK" required>
+
+            <label for="email"><b>Nhập Hãng Sản Xuất</b></label>
+            <input type="text" name="hsx" required>
+
+            <label for="email"><b>Nhập Mô Tả</b></label>
+            <input type="text" name="moTa" required>
+
+            <label for="email"><b>Nhập Thời Gian Bảo Hành</b></label>
+            <input type="text" name="bh" required>
+
+            <label for="psw-repeat"><b>Chọn Ngày Cập Nhật</b></label>
+            <input type="date" name="ngayCN" style="width:400px" class="form-control" />
+            <br />
+            <label for="psw-repeat"><b>Nhập Đơn Giá</b></label>
+            <input type="text" name="donGia" required>
+
+            <label for="email"><b>Chọn Hình Ảnh</b></label>
+            <input type="file" name="hinh" required>
+
+            <p><a href="/NguoiDung/QuanTriAdmin" class="btn btn-primary" style="background-color:aquamarine; color:darkred"><b>Trở Về</b></a></p>
+
+            <div class="clearfix">
+                <button type="submit" class="signupbtn">Sửa Sản Phẩm</button>
+            </div>
+        </div>
+    }
+}

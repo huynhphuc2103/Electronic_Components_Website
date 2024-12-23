@@ -1,0 +1,54 @@
+﻿@model IEnumerable<_02_WebsiteBanLinhKienDienTu.Models.LINHKIEN>
+
+@{
+    ViewBag.Title = "QuanTriAdmin";
+    Layout = "~/Views/Shared/LayoutPage.cshtml";
+}
+
+<h2 style="text-align:center; padding-top:10px; font-family:'Times New Roman', Times, serif;"><b>Quản Lý Linh Kiện</b></h2>
+<p><a href="/NguoiDung/ThemLinhKien" class="btn btn-primary" style="background-color:aquamarine; color:darkred; padding-left:20px; font-size:20px; font-weight:40"><b>Thêm Linh Kiện Mới</b></a></p>
+<table class="table">
+    <tr>
+        <th>
+            Hình Ảnh
+        </th>
+        <th>
+            Tên Linh Kện
+        </th>
+        <th>
+            Hãng Sản Xuất
+        </th>
+        <th>
+            Ngày Cập Nhật
+        </th>
+        <th>
+            Đơn Giá
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            <img style="width:100px; height:100px" src="/image/@Html.DisplayFor(modelItem => item.HINHANH)" alt=""/>
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TENLK)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HANGSX)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NGAYCAPNHAT)
+        </td>
+        <td>
+            @string.Format("{0:0.000}", @Html.DisplayFor(modelItem => item.DONGIA)) VNĐ
+        </td>
+        <td>
+            @Html.ActionLink("Xoá", "XoaLinhKien", new { maLK = item.MALK }) &nbsp;&nbsp;|&nbsp;&nbsp;
+            @Html.ActionLink("Sửa", "SuaLinhKien", new { maLK = item.MALK })
+        </td>
+    </tr>
+}
+
+</table>

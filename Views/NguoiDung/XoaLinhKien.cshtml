@@ -1,0 +1,19 @@
+﻿@model _02_WebsiteBanLinhKienDienTu.Models.LINHKIEN
+
+@{
+    ViewBag.Title = "XoaLinhKien";
+    Layout = "~/Views/Shared/LayoutPage.cshtml";
+}
+
+<h2 style="text-align:center">Bạn Muốn Xoá Linh Kiện Này</h2>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+    <center>
+        <div class="form-actions no-color" style="padding-bottom:20px">
+            <input type="submit" value="Delete" class="btn btn-primary" style="height:40px"/>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="@Url.Action("QuanTriAdmin", "NguoiDung")" class="btn btn-primary" style="height:40px">Trở Về</a>
+        </div>
+    </center>
+    }
